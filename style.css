@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Arapey:ital@1&display=swap');
+* {
+    padding:0;
+    margin:0;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    
+    background-image: url("pexels-photo-640809.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+#logo {
+     font-family: 'allura', cursive;
+     font-size: 30px;
+     color: rgba(119, 34, 34, 0.644);
+}
+.navbar .navbar-items ul{
+    display: flex;
+    
+}
+.navbar .navbar-items ul li{
+    text-transform: uppercase;
+    margin: 5px 10px;
+    color: black;
+    outline: none;
+}
+.navbar .navbar-items ul a{
+    color: black;
+}
+
+.content{
+    min-height: 85vh;
+
+}
+
+.content-text{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 30vh;
+    text-transform: uppercase;
+    line-height: 38px;
+}
+.content h6{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 30vh;
+    text-transform: uppercase;
+    line-height: 38px;
+    color: brown;
+    font-family: 'allura', cursive;}
+
+
+.about-us {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Changa', sans-serif;
+}
+
+#title {
+    border-bottom: 2px solid brown;
+    width: fit-content;
+    text-align: center;
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    
+}
+
+.about-us__content{
+    min-height: 20vh;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 70%;
+    position: relative;
+    text-align: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgba(109, 106, 106, 0.897);
+}
+
+.Our-Team {
+    background-color:rgba(211, 204, 204, 0.76);
+    width: 100%;
+    
+}
+
+#button {
+  position: relative;
+  text-align: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: brown; 
+  color: black;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  width: fit-content;
+  margin-top:10px ;
+  background-color: white;
+  border: 2px solid brown;
+  font-family: 'Changa', sans-serif;
+  cursor: pointer;
+}
+
+#button:hover {
+    background-color: brown     ;
+    color: cornsilk;
+    transition-duration: 0.8s;
+}
+
+.Our-Team img {
+    width: 300px;
+    height: 300px;
+    border-radius: 3%;
+    box-shadow: 2px 2px 4px rgba(168, 167, 167, 0.514);
+
+}
+.Our-Team img:hover {
+    box-shadow: 2px 2px 12px rgba(112, 110, 110, 0.514);
+    transform:scale(1.1);
+    transition: 0.8s;
+
+}
+
+.Out-Team__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+.Out-Team__content h3{
+    color: rgb(165, 42, 73);
+    font-family: 'josefin',sans-serif;
+}
+
+.laptop-section{
+    width: 300px;
+    height: fit-content;
+    margin:20px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 10vh;
+    margin-top: 8vh;
+  
+}
+.iphone-section{
+    width: 300px;
+    height: fit-content;
+    margin:20px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 10vh;
+    margin-top: 8vh;
+}
+.ux-section{
+    width: 300px;
+    height: fit-content;
+    margin:20px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 10vh;
+    margin-top: 8vh;
+}
+
+#titleteam{
+    border-bottom: 2px solid brown;
+    width: fit-content;
+    text-align: center;
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    top: 2vh;
+}
+
+footer{
+    background-color: rgb(49, 48, 48);
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    color: cornsilk;
+}
+footer h4 {
+    position: relative;
+    margin-top: 10px;
+}
+
+
+
+  @media only screen and (max-width: 720px) {
+      .navbar{
+          height: auto;
+          flex-direction: column;
+      }
+      .navbar .navbar-items ul{
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    #logo {
+        margin-bottom: 30px;
+    }
+    
+    .content-text{  
+        width:40%;
+}
+.content h6{ 
+    width:40%;
+    color: cornsilk;
+    
+}
+.Out-Team__content{
+flex-direction: column;
+position: relative;
+
+}
+
+}
+@media screen and (max-width: 1024px) and (min-width: 700px) {
+  
+
+    .Out-Team__content{
+        flex-direction: column;
+        position: relative;
+        
+        }
+}
